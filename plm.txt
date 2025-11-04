@@ -1,0 +1,145 @@
+Perfect, frate 🔥 — hai să facem un plan de 2 săptămâni / 2 ore pe zi care să te pregătească solid pentru Olimpiada de Securitate Cibernetică (OSC), varianta pentru liceu.
+
+Planul e gândit ca să:
+
+acopere baza teoretică (criptografie, rețele, OSINT, etc.);
+
+te pună în contact cu exerciții practice (CyberEDU, TryHackMe, OverTheWire);
+
+și să îți dea workflow real de CTF / olimpiadă.
+
+🗓️ PLAN DE 2 SĂPTĂMÂNI (2 ore/zi)
+🔹 Săptămâna 1 — Bazele & Introducerea în CTF-uri
+
+🧩 Ziua 1: Introducere în securitate cibernetică
+
+Citește: cyberedu.ro
+ — secțiunea “Introducere”.
+
+Uită-te la ce domenii sunt în OSC: rețele, OSINT, criptografie, web.
+
+Clip YouTube: „What is Cyber Security?” (simplu, în engleză).
+
+Scop: să înțelegi pe scurt domeniul.
+
+🧩 Ziua 2: Rețele & protocoale de bază
+
+Învață: IP, DNS, HTTP, HTTPS, ping, traceroute.
+
+Joacă: tryhackme.com/room/introtonetworking
+
+Notează comenzile ipconfig, ifconfig, ping, nslookup.
+
+🧩 Ziua 3: Linux & comenzi de bază
+
+Învață comenzile: ls, cd, cat, grep, find, chmod, sudo.
+
+TryHackMe: Linux Fundamentals 1
+
+Obiectiv: să te miști în terminal.
+
+🧩 Ziua 4: Criptografie simplă
+
+Învață: cifrul Caesar, XOR, Base64, hash-uri (MD5, SHA1).
+
+Exersează pe: cryptohack.org
+ (secțiunea “Introduction”).
+
+Scop: să recunoști tipuri de criptări.
+
+🧩 Ziua 5: Securitatea web (partea 1)
+
+Noțiuni: ce e un website, HTML, cookie, form, URL, GET/POST.
+
+TryHackMe: Web Fundamentals
+
+Notează vulnerabilități de bază (XSS, SQLi, CSRF).
+
+🧩 Ziua 6: Securitatea web (partea 2)
+
+Învață cum se detectează vulnerabilități.
+
+Exersează: PortSwigger Web Academy
+
+Țintește lecțiile: „SQL Injection” și „Cross-site scripting”.
+
+🧩 Ziua 7: OSINT & căutare inteligentă
+
+Învață: cum să găsești informații despre o persoană / site / imagine.
+
+Site-uri: osintframework.com
+, inteltechniques.com
+
+Exercițiu: caută un cont fals online (folosind Google Dorks: site:instagram.com "nume").
+
+🔹 Săptămâna 2 — Aplicare & Antrenament tip OSC
+
+🧩 Ziua 8: Recapitulare + test
+
+Treci peste notițele din săptămâna 1.
+
+Fă câteva exerciții mixte de pe CyberEDU.ro
+ – secțiunea “Training”.
+
+Notează ce nu știi bine.
+
+🧩 Ziua 9: Securitatea sistemelor de operare
+
+Învață: permisiuni, procese, parole, loguri.
+
+TryHackMe: Intro to Cyber Security → System Security
+
+Încearcă să spargi un cont local într-un lab demo (exercițiu cu hash-uri).
+
+🧩 Ziua 10: Analiza traficului de rețea
+
+Învață să folosești Wireshark.
+
+Clip YouTube: “Wireshark Tutorial for Beginners”.
+
+Exersează cu un fișier .pcap (găsești exemple pe malware-traffic-analysis.net
+).
+
+🧩 Ziua 11: Securitatea aplicațiilor
+
+Învață cum se exploatează aplicații nesecurizate.
+
+TryHackMe: Basic Pentesting
+
+Scop: identifică parola unui user.
+
+🧩 Ziua 12: Scriptare & automatizare (Python)
+
+Învață: requests, os, hashlib.
+
+Scrie un mic script care decodează Base64 sau verifică un hash.
+
+Surse: w3schools Python
+.
+
+🧩 Ziua 13: Mini-CTF (simulare)
+
+Participă la un CTF de antrenament pe CyberEDU
+ sau TryHackMe → CTF rooms
+.
+
+Notează ce categorii ți-au mers greu.
+
+🧩 Ziua 14: Revizie + relax
+
+Fă recapitulare ușoară.
+
+Refă exercițiile grele.
+
+Învață din write-up-uri de pe ctftime.org
+.
+
+💡 Bonus tips
+
+Ține un jurnal zilnic (ce ai învățat, ce n-ai înțeles).
+
+Joacă periodic mini CTF-uri — înveți mai repede practic.
+
+Încearcă să colaborezi cu colegi interesați — teamwork contează.
+
+Urmărește pe YouTube: NetworkChuck, John Hammond, STÖK, LiveOverflow.
