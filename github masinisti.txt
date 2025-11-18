@@ -1,0 +1,27 @@
+GitHub masinisti:
+
+	front-end:
+		-inertia
+		-vue
+		-tailwind
+	
+		*ce tre sa faca:
+			-sa fie foarte multe tranzitii, mai ales la actiunile crud
+			-sa fie o paleta de culori foarte frumoasa, de preferat cu culori mai deschise
+			-sa fie o pagina cu cele mai interesante builduri, selectate dupa un AI
+			-sa fie o pagina cu cele mai like-uite builduri
+			-sa poti selecta tipul de builduri pe care sa le cauti impreuna cu marca, modelul, anul si tag-urile masinii
+	backend:
+		-laravel
+		-redis
+		-mysql
+		
+		*ce tre sa faca:
+			-sa iti faci user cu urmatoarele date: nume, prenume, username, email, parola
+			-fiecare user are un profil cu urmatoarele date: poza_profil, bio, participat_la_evenimente
+			-fiecare user sa aiba masini cu urmatoarele date: marca, model, an, motorizare, cod_motor, whp, culoare
+			??-fiecare masina sa aiba modificari cu urmatoarele date: nume_modificicare, descriere_modificare, motiv
+			-fiecare masina sa aiba un tip cu urmatoarele date: name
+				-fiecare tip.name poate lua niste valori prestabilite; ex: car-audio, show-car, track-car, daily-car, drift-car, etc.
+			-fiecare masina sa aiba mai multe tag-uri cu urmatoarele date: name
+				-fiecare tag.name poate lua niste valori prestabilite; ex: oem+, jdm, muscle-car, etc.
