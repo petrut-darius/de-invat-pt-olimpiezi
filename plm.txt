@@ -1,145 +1,221 @@
-Perfect, frate 🔥 — hai să facem un plan de 2 săptămâni / 2 ore pe zi care să te pregătească solid pentru Olimpiada de Securitate Cibernetică (OSC), varianta pentru liceu.
+🔴 ZIUA 1 – FUNDAMENT + JEOPARDY CORE
+⏰ Dimineață (4–5h) – BAZELE CARE DAU PUNCTE RAPIDE
+🔐 Concepte fundamentale de securitate
 
-Planul e gândit ca să:
+CIA Triad (Confidențialitate, Integritate, Disponibilitate)
 
-acopere baza teoretică (criptografie, rețele, OSINT, etc.);
+Threat vs Vulnerability vs Risk
 
-te pună în contact cu exerciții practice (CyberEDU, TryHackMe, OverTheWire);
+Attack surface
 
-și să îți dea workflow real de CTF / olimpiadă.
+Kill Chain
 
-🗓️ PLAN DE 2 SĂPTĂMÂNI (2 ore/zi)
-🔹 Săptămâna 1 — Bazele & Introducerea în CTF-uri
+Defense in Depth
 
-🧩 Ziua 1: Introducere în securitate cibernetică
+🧠 Guvernanță, risc, compliance
 
-Citește: cyberedu.ro
- — secțiunea “Introducere”.
+GRC basics
 
-Uită-te la ce domenii sunt în OSC: rețele, OSINT, criptografie, web.
+ISO 27001 (ce este, nu certificarea)
 
-Clip YouTube: „What is Cyber Security?” (simplu, în engleză).
+NIST CSF (Identify – Protect – Detect – Respond – Recover)
 
-Scop: să înțelegi pe scurt domeniul.
+Risk = Impact × Likelihood
 
-🧩 Ziua 2: Rețele & protocoale de bază
+🔑 Criptografie (CTF-oriented)
 
-Învață: IP, DNS, HTTP, HTTPS, ping, traceroute.
+DOAR ce pică în CTF:
 
-Joacă: tryhackme.com/room/introtonetworking
+Encoding vs Encryption vs Hashing
 
-Notează comenzile ipconfig, ifconfig, ping, nslookup.
+Base64, Hex, ROT, XOR
 
-🧩 Ziua 3: Linux & comenzi de bază
+Hash-uri: MD5, SHA1, SHA256
 
-Învață comenzile: ls, cd, cat, grep, find, chmod, sudo.
+Password cracking:
 
-TryHackMe: Linux Fundamentals 1
+wordlists
 
-Obiectiv: să te miști în terminal.
+rainbow tables
 
-🧩 Ziua 4: Criptografie simplă
+Tool-uri:
 
-Învață: cifrul Caesar, XOR, Base64, hash-uri (MD5, SHA1).
+CyberChef
 
-Exersează pe: cryptohack.org
- (secțiunea “Introduction”).
+hashcat
 
-Scop: să recunoști tipuri de criptări.
+john
 
-🧩 Ziua 5: Securitatea web (partea 1)
+🧠 Flag-urile aici sunt rapide dacă recunoști pattern-ul.
 
-Noțiuni: ce e un website, HTML, cookie, form, URL, GET/POST.
+🧪 Exerciții practice
 
-TryHackMe: Web Fundamentals
+Decodează string-uri
 
-Notează vulnerabilități de bază (XSS, SQLi, CSRF).
+Sparge hash-uri simple
 
-🧩 Ziua 6: Securitatea web (partea 2)
+XOR bruteforce
 
-Învață cum se detectează vulnerabilități.
+🟠 ZIUA 2 – WEB, OSINT, FORENSICS, REVERSE
+⏰ Dimineață (4h) – WEB & OSINT (PUNCTAJ MARE)
+🌐 Web Security (Top CTF goldmine)
 
-Exersează: PortSwigger Web Academy
+OWASP Top 10 (doar exploatare, nu teorie)
 
-Țintește lecțiile: „SQL Injection” și „Cross-site scripting”.
+SQL Injection
 
-🧩 Ziua 7: OSINT & căutare inteligentă
+XSS (reflected / stored)
 
-Învață: cum să găsești informații despre o persoană / site / imagine.
+LFI / RFI
 
-Site-uri: osintframework.com
-, inteltechniques.com
+Command Injection
 
-Exercițiu: caută un cont fals online (folosind Google Dorks: site:instagram.com "nume").
+File Upload vulns
 
-🔹 Săptămâna 2 — Aplicare & Antrenament tip OSC
+Auth bypass
 
-🧩 Ziua 8: Recapitulare + test
+🔧 Tool-uri:
 
-Treci peste notițele din săptămâna 1.
+Burp Suite
 
-Fă câteva exerciții mixte de pe CyberEDU.ro
- – secțiunea “Training”.
+curl
 
-Notează ce nu știi bine.
+browser dev tools
 
-🧩 Ziua 9: Securitatea sistemelor de operare
+🔍 OSINT
 
-Învață: permisiuni, procese, parole, loguri.
+Google dorking
 
-TryHackMe: Intro to Cyber Security → System Security
+WHOIS / DNS
 
-Încearcă să spargi un cont local într-un lab demo (exercițiu cu hash-uri).
+Metadata (EXIF)
 
-🧩 Ziua 10: Analiza traficului de rețea
+Social media footprint
 
-Învață să folosești Wireshark.
+Email leaks
 
-Clip YouTube: “Wireshark Tutorial for Beginners”.
+🔧 Tool-uri:
 
-Exersează cu un fișier .pcap (găsești exemple pe malware-traffic-analysis.net
-).
+Maltego
 
-🧩 Ziua 11: Securitatea aplicațiilor
+theHarvester
 
-Învață cum se exploatează aplicații nesecurizate.
+Google
 
-TryHackMe: Basic Pentesting
+GitHub recon
 
-Scop: identifică parola unui user.
+⏰ După-amiază (4h) – FORENSICS, LOGS, TRAFIC
+🕵️ Forensics & logs
 
-🧩 Ziua 12: Scriptare & automatizare (Python)
+Analiza fișierelor:
 
-Învață: requests, os, hashlib.
+.pcap
 
-Scrie un mic script care decodează Base64 sau verifică un hash.
+.zip
 
-Surse: w3schools Python
-.
+.img
 
-🧩 Ziua 13: Mini-CTF (simulare)
+Steganografie
 
-Participă la un CTF de antrenament pe CyberEDU
- sau TryHackMe → CTF rooms
-.
+Deleted files
 
-Notează ce categorii ți-au mers greu.
+Logs:
 
-🧩 Ziua 14: Revizie + relax
+auth.log
 
-Fă recapitulare ușoară.
+access.log
 
-Refă exercițiile grele.
+🔧 Tool-uri:
 
-Învață din write-up-uri de pe ctftime.org
-.
+Wireshark
 
-💡 Bonus tips
+Autopsy
 
-Ține un jurnal zilnic (ce ai învățat, ce n-ai înțeles).
+strings
 
-Joacă periodic mini CTF-uri — înveți mai repede practic.
+binwalk
 
-Încearcă să colaborezi cu colegi interesați — teamwork contează.
+📡 Analiza traficului
 
-Urmărește pe YouTube: NetworkChuck, John Hammond, STÖK, LiveOverflow.
+HTTP vs HTTPS
+
+DNS exfiltration
+
+TCP handshake
+
+Credential leaks în pcap
+
+🔵 ZIUA 3 – ATTACK & DEFENCE + AUTOMATIZARE
+⏰ Dimineață (4h) – ATTACK
+🧨 Enumerare & exploatare
+
+Port scanning (nmap)
+
+Service enumeration
+
+Exploatare:
+
+weak creds
+
+misconfig
+
+outdated services
+
+🧠 Reverse Engineering
+
+Strings
+
+Simple crackme
+
+Obfuscation
+
+Macro-uri în documente
+
+🔧 Tool-uri:
+
+Ghidra
+
+IDA (basic)
+
+strings, objdump
+
+⏰ După-amiază (4h) – DEFENCE & SCRIPTING
+🛡️ Attack & Defence – partea rară, dar grea
+
+Hardening:
+
+firewall rules
+
+services minimizate
+
+Monitorizare:
+
+logs
+
+IDS/IPS
+
+Detectarea exploit-urilor
+
+Patching rapid
+
+🤖 Programare & scripting
+
+Minimum necesar:
+
+Python:
+
+requests
+
+regex
+
+parsing
+
+Bash:
+
+grep
+
+awk
+
+sed
+
+Automatizare brute-force / decode
